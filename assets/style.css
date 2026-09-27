@@ -26,3 +26,6 @@ ol, ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
 footer { color: var(--sub); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
 a { color: var(--navy); }
 @media (prefers-color-scheme: dark) { a { color: #B1C5FF; } }
+.version { font-family: "IBM Plex Sans KR", sans-serif; color: var(--navy); }
+@media (prefers-color-scheme: dark) { .version { color: #B1C5FF; } }
+.changes { font-size: 15px; }
