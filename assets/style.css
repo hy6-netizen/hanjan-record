@@ -29,3 +29,8 @@ a { color: var(--navy); }
 .version { font-family: "IBM Plex Sans KR", sans-serif; color: var(--navy); }
 @media (prefers-color-scheme: dark) { .version { color: #B1C5FF; } }
 .changes { font-size: 15px; }
+.intro { display: grid; gap: 8px; }
+.hook { font-size: 22px; font-weight: 700; }
+.features { display: grid; gap: 16px; margin-top: 4px; }
+h3 { margin: 0 0 2px; font-size: 16px; }
+.closing { margin-top: 18px; font-weight: 500; }
