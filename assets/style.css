@@ -46,3 +46,10 @@ h3 { margin: 0 0 2px; font-size: 16px; }
 .download { flex-direction: column; align-items: stretch; }
 .btn-row { text-align: center; margin-top: 4px; }
 .download .qr { align-self: center; }
+.contact { display: grid; gap: 10px; }
+.contact-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn-kakao { background: #FEE500; color: #191919; }
+.btn-insta { background: #1A1B20; color: #fff; }
+.btn-insta .handle { font-weight: 500; opacity: .8; margin-left: 4px; }
+@media (prefers-color-scheme: dark) { .btn-insta { background: #E2E2E9; color: #1A1B20; } }
+.tips { margin: 0; }
