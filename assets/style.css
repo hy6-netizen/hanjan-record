@@ -53,3 +53,6 @@ h3 { margin: 0 0 2px; font-size: 16px; }
 .btn-insta .handle { font-weight: 500; opacity: .8; margin-left: 4px; }
 @media (prefers-color-scheme: dark) { .btn-insta { background: #E2E2E9; color: #1A1B20; } }
 .report-form { margin: 0; padding: 12px 14px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); font-family: inherit; font-size: 14px; line-height: 1.7; white-space: pre-wrap; color: var(--sub); }
+.join-notice { background: #FFF8C5; color: #3A3200; border-radius: 12px; padding: 10px 14px; font-size: 15px; }
+.join-notice a { color: inherit; }
+@media (prefers-color-scheme: dark) { .join-notice { background: #3A3413; color: #FFF3B0; } }
